@@ -1,18 +1,5 @@
 # Conway's Game of Life in Elixir
 
-## Members
-
-* Felipe da Silva Simões
-* Lucas Amaral Pinheiro da Fonseca
-
-### Contributions
-
-Código foi feito em maior colaboração via VS Code Live Share.
-Todas as funções foram feitas em colaboração, exceto:
-
-* `neighbours` - Felipe da Silva Simões
-* `main` - Lucas Amaral Pinheiro da Fonseca
-
 ## Requirements
 
 * __`make`__
