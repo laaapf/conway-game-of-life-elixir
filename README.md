@@ -1,6 +1,6 @@
 # Conway's Game of Life in Elixir
 
-[![Dockerfile build test status](https://github.com/asimos-bot/conway-game-of-life-elixir/workflows/Dockerfile/badge.svg)](https://github.com/asimos-bot/conway-game-of-life-elixir/actions/workflows/main.yml)
+[![make docker-test](https://github.com/laaapf/conway-game-of-life-elixir/workflows/Build%20and%20Tests/badge.svg)](https://github.com/laaapf/conway-game-of-life-elixir/actions/workflows/main.yml)
 
 ## Requirements
 

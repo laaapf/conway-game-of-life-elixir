@@ -30,4 +30,4 @@ docker-run:
 	docker run --rm -ti $(DOCKER_IMAGE_TAG)
 
 docker-test: docker-build
-	docker run --rm -ti $(DOCKER_IMAGE_TAG) sh -c "make test"
+	docker run --rm $(DOCKER_IMAGE_TAG) sh -c "make test"
