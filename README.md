@@ -1,5 +1,7 @@
 # Conway's Game of Life in Elixir
 
+[![Dockerfile build test status](https://github.com/asimos-bot/conway-game-of-life-elixir/workflows/Dockerfile/badge.svg)](https://github.com/asimos-bot/conway-game-of-life-elixir/actions/workflows/main.yml)
+
 ## Requirements
 
 * __`make`__
@@ -7,8 +9,12 @@
 
 ## How to Run
 
-To run the project, just do `make main`.
-If only `elixir` is installed, do `elixirc life.ex; elixir -e Game.main`
+To run the project, just do `make run`.
+If only `elixir` is installed and not make, do `elixirc life.ex; elixir -e Game.main`
+
+You can also run it in docker. To build the `conway-game-of-life-elixir` image, just
+do `make docker-build` and `make docker-run` to open a shell ready to execute the
+program.
 
 ### How it Works
 
